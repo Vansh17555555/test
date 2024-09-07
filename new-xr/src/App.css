@@ -1183,7 +1183,7 @@ bottom: 500px;
 @media (max-width: 460px) {
   .organizers-title {
     font-family: Roboto Condensed;
-    font-size: 1vw; /* Adjust font size to viewport units */
+    font-size:5vw; /* Adjust font size to viewport units */
     font-weight: 700;
     line-height: 6vw; /* Adjust line height to viewport units */
     text-align: center;
