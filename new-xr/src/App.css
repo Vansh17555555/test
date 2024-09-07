@@ -1141,7 +1141,7 @@ bottom: 500px;
 
 /* Prizes description */
 .prizes-description {
-  font-size: 1.3vw; /* Adjust font size to viewport units */
+  font-size: 3vw; /* Adjust font size to viewport units */
   color: #4a4a4a;
   line-height: 2.5vw; /* Adjust line height to viewport units */
   max-width: 90vw; /* Optional: Limits the width of the paragraph to viewport units */
