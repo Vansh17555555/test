@@ -7,57 +7,36 @@ const Navbar = ({ register }) => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false); // Close the menu when a link or close button is clicked
+  };
+
   return (
     <nav>
-      <div className="navbar-container">
-        <img className="logo" src="/assets/logo.webp" alt="Logo" />
-        <div
-          className="hamburger"
-          onClick={toggleMenu}
-          aria-expanded={isOpen}
-          aria-controls="nav-links"
-        >
-          &#9776;
-        </div>
-        <ul
-          id="nav-links"
-          className={`nav-links ${isOpen ? 'open' : ''}`}
-        >
-          <li>
-            <a href="#about" onClick={toggleMenu}>
-              Overview
-            </a>
-          </li>
-          <li>
-            <a href="#theme" onClick={toggleMenu}>
-              Themes
-            </a>
-          </li>
-          <li>
-            <a href="#timelines" onClick={toggleMenu}>
-              Timelines
-            </a>
-          </li>
-          <li>
-            <a href="#prize" onClick={toggleMenu}>
-              Prizes
-            </a>
-          </li>
-          <li>
-            <a href="#organiser" onClick={toggleMenu}>
-              Sponsors
-            </a>
-          </li>
-          <li>
-            <a href="#faq" onClick={toggleMenu}>
-              FAQ
-            </a>
-          </li>
-          <li>
-            <button onClick={register}>Register</button>
-          </li>
-        </ul>
+      {/* Hamburger icon */}
+      <div className="hamburger" onClick={toggleMenu}>
+        <i className="fas fa-bars"></i>
       </div>
+      
+      {/* Logo */}
+      <img className="logo" src="./assets/logo.webp" alt="Logo" />
+
+      {/* Navigation links */}
+      <ul className={isOpen ? "nav-open" : ""}>
+        {/* Close button */}
+        {isOpen && (
+          <div className="close-btn" onClick={closeMenu}>
+            <i className="fas fa-times"></i>
+          </div>
+        )}
+        <li><a href="#about" onClick={closeMenu}>Overview</a></li>
+        <li><a href="#theme" onClick={closeMenu}>Themes</a></li>
+        <li><a href="#timeline" onClick={closeMenu}>Timeline</a></li>
+        <li><a href="#prize" onClick={closeMenu}>Prizes</a></li>
+        <li><a href="#sponsor" onClick={closeMenu}>Sponsors</a></li>
+        <li><a href="#faqs" onClick={closeMenu}>FAQ</a></li>
+        <li><button onClick={register}>REGISTER NOW</button></li>
+      </ul>
     </nav>
   );
 };
