@@ -19,7 +19,7 @@ const Navbar = ({ register }) => {
       </div>
       
       {/* Logo */}
-      <img className="logo" src="./assets/logo.webp" alt="Logo" />
+      <img className="logo" src="/assets/XR Creator Hackathon Logo.png" alt="Logo" />
 
       {/* Navigation links */}
       <ul className={isOpen ? "nav-open" : ""}>
