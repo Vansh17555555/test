@@ -467,6 +467,8 @@ nav ul li button {
   justify-content:space-between;
   align-items: center;
   width: 100%;
+  margin-left:1vw;
+  margin-right: 1vw;
   background-color: white;
 }
 
@@ -518,12 +520,13 @@ nav ul li button {
 /* Waves image container */
 .waves-image {
   display: flex;
-  width: 50vw;
+  width: 40vw;
 
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   margin: 0 auto;
+  
 }
 
 .waves-image img {
@@ -655,9 +658,8 @@ nav ul li button {
   }
 
   .waves-image {
-    width:100%;
-    display: flex;
-    
+    width:90%;
+    display: inline;
     border: radius 10px;
     justify-content: center;
     
@@ -1282,10 +1284,10 @@ margin-top: 2vw;
   background: white;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
   .prizes-heading {
     font-family: Roboto Condensed;
-    font-size: 5vw; /* Adjust font size to viewport units */
+    font-size: 7vw; /* Adjust font size to viewport units */
     font-weight: 700;
     line-height: 6vw; /* Adjust line height to viewport units */
     text-align: center;
@@ -1318,7 +1320,7 @@ margin-top: 2vw;
 @media (max-width: 480px) {
   .organizers-title {
     font-family: Roboto Condensed;
-    font-size: 5vw; /* Adjust font size to viewport units */
+    font-size: 7vw; /* Adjust font size to viewport units */
     font-weight: 700;
     line-height: 6vw; /* Adjust line height to viewport units */
     text-align: center;
