@@ -40,14 +40,15 @@ const Footer = () => {
             <a href="#" style={currentStyles.link}>
               <Twitter size={24} />
             </a>
+      
           </div>
-        </div>
-      </div>
-      <div style={currentStyles.footerBottom}>
+          <div style={currentStyles.footerBottom}>
         <p style={currentStyles.footerText}>© 2023 5.2.28 Creator Hackathon. All rights reserved</p>
       </div>
+        </div>
+      </div>    
     </section>
-  );
+  )
 };
 
 const styles = {
@@ -99,7 +100,7 @@ const styles = {
   footerText: {
     fontSize: '0.875rem',
     textAlign: 'left',
-    paddingLeft: '120px',
+    marginTop:'1vh'
   },
 };
 
