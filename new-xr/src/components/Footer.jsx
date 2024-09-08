@@ -22,8 +22,8 @@ const Footer = () => {
       <div style={currentStyles.container}>
         <div style={currentStyles.column}>
           <p style={currentStyles.contactHeader}>Contact Us</p>
-          <p style={currentStyles.contactInfo}>+49 9533 074090</p>
-          <p style={currentStyles.contactInfo}>creatorhackathon@gmail.com</p>
+          <p style={currentStyles.contactInfo}>+49 9898 9898 98,9797 9797 97</p>
+          <p style={currentStyles.contactInfo}>xrcreatorhackathon@gmail.com</p>
         </div>
         <div style={currentStyles.column}>
           <p style={currentStyles.followUs}>Follow Us</p>
@@ -43,7 +43,7 @@ const Footer = () => {
       
           </div>
           <div style={currentStyles.footerBottom}>
-        <p style={currentStyles.footerText}>© 2023 5.2.28 Creator Hackathon. All rights reserved</p>
+        <p style={currentStyles.footerText}>© 2024-25 XR Creator Hackathon. All rights reserved</p>
       </div>
         </div>
       </div>    
