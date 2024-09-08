@@ -21,9 +21,9 @@ const App = () => {
   return (
     <>
       <Navbar register={register} />
-      <div className="hackathon-image-section">
-        <img src="/assets/Banner Layers.png" alt="Upper Image" className="hackathon-image upper" />
-      </div>
+      <section id="launchpage" className="pages">
+            <img src="/assets/Banner Layers.png" alt=""/>
+        </section>
       <section id="about">
         <About />
         </section>
