@@ -1,5 +1,6 @@
 //import './styles.css'; // Make sure to create and link this CSS file
 
+// eslint-disable-next-line react/prop-types
 const Timelines = ({id}) => {
   return (
     <>

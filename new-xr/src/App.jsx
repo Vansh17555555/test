@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FAQ from './components/FAQ';
@@ -9,7 +9,7 @@ import Timelines from './components/Timeline';
 import Prize from './components/Prize';
 import Organiser from './components/Organiser';
 import Waves from './components/Waves';
-import { Section } from 'lucide-react';
+
 
 const App = () => {
   const register = () => {

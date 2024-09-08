@@ -19,7 +19,9 @@ const Navbar = ({ register }) => {
       </div>
       
       {/* Logo */}
-      <img className="logo" src="/assets/XR Creator Hackathon Logo.png" alt="Logo" />
+      <a href="/">
+  <img className="logo" src="/assets/XR Creator Hackathon Logo.png" alt="Logo" />
+</a>
 
       {/* Navigation links */}
       <ul className={isOpen ? "nav-open" : ""}>
@@ -31,10 +33,10 @@ const Navbar = ({ register }) => {
         )}
         <li><a href="#about" onClick={closeMenu}>Overview</a></li>
         <li><a href="#theme" onClick={closeMenu}>Themes</a></li>
-        <li><a href="#timeline" onClick={closeMenu}>Timeline</a></li>
+        <li><a href="#timelines" onClick={closeMenu}>Timeline</a></li>
         <li><a href="#prize" onClick={closeMenu}>Prizes</a></li>
         <li><a href="#sponsor" onClick={closeMenu}>Sponsors</a></li>
-        <li><a href="#faqs" onClick={closeMenu}>FAQ</a></li>
+        <li><a href="#faq" onClick={closeMenu}>FAQ</a></li>
         <li><button onClick={register}>REGISTER NOW</button></li>
       </ul>
     </nav>
