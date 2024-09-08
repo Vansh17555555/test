@@ -9,7 +9,7 @@ const Theme = ({id}) => {
             <div className="theme-card-1">
           
               <div className="theme-content">
-                <h3 className="theme-title">Healthcare, Fitness, Well-being</h3>
+                <h3 className="theme-title">Healthcare,<br/> Fitness, Well-being</h3>
                 <p>This theme encompasses the integration of XR technologies into the healthcare sector, focusing on enhancing patient care, promoting fitness, and improving overall well-being.
                 </p>
               </div>
@@ -47,7 +47,7 @@ const Theme = ({id}) => {
             <div className="theme-card-5">
 
               <div className="theme-content">
-                <h3 className="theme-title">eCommerce & Retail 
+                <h3 className="theme-title">eCommerce &<br></br> Retail 
                   <br></br>Transformation</h3>
                 <p>This theme explores the transformative impact of XR on retail, eCommerce, and real estate. Participants will examine how immersive technologies can enhance customer experiences, streamline shopping processes, and create personalized environments.</p>
               </div>
