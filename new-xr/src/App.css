@@ -232,7 +232,7 @@ nav ul li button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   padding: 90px;
   margin-top: -12vh;
   background-color: white;
@@ -288,13 +288,19 @@ nav ul li button {
 
 .carousel-container {
   display: flex;
-  width: 50vw;
+  width: 33vw;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  
 }
-
+@media (min-screen:1025px) {
+  .carousel-container {
+  padding-right:10vw;
+  margin-left: -10vh;
+  }
+}
 .carousel img {
   width: 100%;
   object-fit: cover;
@@ -429,7 +435,7 @@ nav ul li button {
     width: 40vw;
     display: flex;
     justify-content: center;
-    height: 35vh; /* Adjust the height slightly for better balance */
+    height: 30vh; /* Adjust the height slightly for better balance */
   }
 }
 
@@ -494,7 +500,7 @@ nav ul li button {
   justify-content:space-between;
   align-items: center;
   width: 100%;
-  margin-left:5vw;
+  padding-left:5vw;
   margin-right: 10vw;
   background-color: white;
 }
@@ -657,7 +663,7 @@ nav ul li button {
     display: flex;
     background-color: white;
     flex-direction: column;
-    margin-left: 0vw;
+    padding-left: 0vw;
     justify-content: center;
     align-items: center;
     padding: 2vh 3vw;
@@ -699,6 +705,24 @@ nav ul li button {
   }
 }
 
+.theme-card-1,
+.theme-card-2,
+.theme-card-3,
+.theme-card-4,
+.theme-card-5 {
+  width: 26.5vw;
+  border: 0.42vw solid #FFFFFF;
+  border-radius: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+  transition: all 0.3s ease;
+  box-shadow: 0 0.28vh 0.21vw 0 rgba(0, 0, 0, 0.1);
+}
+
+
 .theme-heading {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 3.93vw;
@@ -718,7 +742,9 @@ nav ul li button {
   width: 100vw;
   margin-right: 100vw;
 }
-
+.theme-card-1{
+  padding-top: 12vh;
+}
 .theme-card-container {
   display: flex;
   background: white;
@@ -730,103 +756,16 @@ nav ul li button {
   padding: 1.04vw;
 }
 
-.theme-card-1,
-.theme-card-2,
-.theme-card-3,
-.theme-card-4,
-.theme-card-5 {
-  width: 30.5vw;
-  border: 0.42vw solid #FFFFFF;
-  border-radius: 4vw;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2vw;
-  transition: all 0.3s ease;
-  box-shadow: 0 0.28vh 0.21vw 0 rgba(0, 0, 0, 0.1);
-}
 
 .theme-image {
   width: 12vw;
   height: auto;
-  margin-right: 1vw;
-}
-
-.theme-title {
-  font-size: 1.5vw;
-  font-weight: bold;
-  color: #000;
-  text-align: center;
-  flex: 1;
-}
-
-.theme-content {
-  width: 100%;
-  color: #000000;
-  text-align: center;
-  visibility: visible;
-  opacity: 1;
-  font-size: 1.1vw;
-  margin-top: 1vw;
-}
-.theme-heading {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 3.93vw;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 2vh;
-  margin-top: 0;
-  padding-bottom: 0.93vh;
-  padding-top: 4.63vh;
-  color: #1a202c;
-  background-color: white;
-}
-
-.theme-container {
-  background: white;
-  padding-top: 4vw;
-  width: 100vw;
-  margin-right: 100vw;
-}
-
-.theme-card-container {
-  display: flex;
-  background: white;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5vw;
-  width: 100%;
-  margin: 0 auto;
-  padding: 1.04vw;
-}
-
-.theme-card-1,
-.theme-card-2,
-.theme-card-3,
-.theme-card-4,
-.theme-card-5 {
-  width: 30.5vw;
-  border: 0.42vw solid #FFFFFF;
-  border-radius: 4vw;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 2vw;
-  transition: all 0.3s ease;
-  box-shadow: 0 0.28vh 0.21vw 0 rgba(0, 0, 0, 0.1);
-}
-
-.theme-image {
-  width: 12vw;
-  height: auto;
-  margin-right: 1vw;
+  
   transition: all 0.3s ease;
 }
 
 .theme-title {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -839,7 +778,8 @@ nav ul li button {
   color: #000000;
   text-align: center;
   font-size: 1.1vw;
-  margin-top: 1vw;
+  margin-inline: 1vw;
+  margin-bottom: 3vw;
   transition: all 0.3s ease;
 }
 
@@ -855,7 +795,7 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
-    height: 25vw;
+    height:50vh;
     overflow: hidden;
   }
 
@@ -870,7 +810,10 @@ nav ul li button {
   .theme-card-3:hover,
   .theme-card-4:hover,
   .theme-card-5:hover {
-    height: auto;
+    padding-top: 2vw;
+    flex-direction: row;
+
+    flex-wrap: wrap;
   }
 
   .theme-card-1:hover .theme-image,
@@ -887,6 +830,7 @@ nav ul li button {
   .theme-card-4:hover .theme-title,
   .theme-card-5:hover .theme-title {
     font-size: 1.3vw;
+    text-align: left;
   }
 
   .theme-card-1:hover .theme-content,
@@ -897,6 +841,7 @@ nav ul li button {
     visibility: visible;
     opacity: 1;
     transform: translateY(0);
+    
   }
 }
 .theme-card-1 { background: #9CFF004D; }
@@ -911,6 +856,9 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
+    padding-top: 1vw;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 33vw;
   }
   
@@ -920,10 +868,13 @@ nav ul li button {
 
   .theme-title {
     font-size: 2vw;
+    text-align: left;
   }
 
   .theme-content {
     font-size: 1.5vw;
+    margin-inline: 2vw;
+    margin-bottom: 1vh;
   }
 }
 
@@ -937,6 +888,8 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 50.56vw;
   }
 
@@ -969,16 +922,21 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
-    width: 40vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50vw;
+    height:32vh;
     gap: 2vw;
   }
-
+  .theme-card-1 {
+    height:26vh;
+  }
   .theme-image {
-    width: 20vw;
+    width: 15vw;
   }
 
   .theme-title {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .theme-content {
