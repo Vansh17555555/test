@@ -19,9 +19,17 @@ const Footer = () => {
 
   return (
     <section style={currentStyles.footer}>
-      <div style={{ display:'block',width:'36vw', background:'trasnparent'}}>
-      <img src="assets/image_3-removebg-preview.png" alt="Logo" style={{ width: '7vw' ,marginLeft:'5vw', height: 'auto' }} />      </div>
-      <div style={currentStyles.container}>
+    <div style={{ display: 'block', width: '36vw', background: 'transparent' }}>
+        {/* Adjust the logo size based on screen size */}
+        <img 
+          src="assets/image_3-removebg-preview.png" 
+          alt="Logo" 
+          style={isMobile 
+            ? { width: '30vw', marginLeft: '20vw', height: 'auto' } // Mobile styles
+            : { width: '10vw', marginLeft: '5vw', height: 'auto' }   // Desktop styles
+          } 
+        />
+      </div>  <div style={currentStyles.container}>
         <div style={currentStyles.column}>
           <p style={currentStyles.contactHeader}>Contact Us</p>
           <p style={currentStyles.contactInfo}>+91 93540 31490</p>
@@ -30,16 +38,16 @@ const Footer = () => {
         <div style={currentStyles.column}>
           <p style={currentStyles.followUs}>Follow Us</p>
           <div style={currentStyles.socialMedia}>
-            <a href="#" style={currentStyles.link}>
+            <a href="https://www.facebook.com/people/Wavelaps/61563794723850/" style={currentStyles.link}>
               <Facebook size={24} />
             </a>
-            <a href="#" style={currentStyles.link}>
+            <a href="https://www.instagram.com/wavelaps_technologies/" style={currentStyles.link}>
               <Instagram size={24} />
             </a>
-            <a href="#" style={currentStyles.link}>
+            <a href="https://www.linkedin.com/company/wavelaps" style={currentStyles.link}>
               <Linkedin size={24} />
             </a>
-            <a href="#" style={currentStyles.link}>
+            <a href="https://x.com/wavelaps" style={currentStyles.link}>
               <Twitter size={24} />
             </a>
       
@@ -100,7 +108,7 @@ const styles = {
     textAlign: 'center',
   },
   footerText: {
-    fontSize: '0.875rem',
+    fontSize: '0.775rem',
     textAlign: 'left',
     marginTop:'1vh'
   },
