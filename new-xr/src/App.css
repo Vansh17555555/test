@@ -1487,8 +1487,8 @@ margin-top: 2vw;
 .organizer-item {
   width: 20vw; /* Set the width of each organizer item to 25% of the viewport width */
   padding: 4vw;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 30px ;
    /* Set the padding to 4% of the viewport width */
 }
 
