@@ -924,12 +924,12 @@ nav ul li button {
   .theme-card-5 {
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50vw;
-    height:32vh;
+    width: 70vw;
+    height:27vh;
     gap: 2vw;
   }
   .theme-card-1 {
-    height:26vh;
+    height:24vh;
   }
   .theme-image {
     width: 15vw;
