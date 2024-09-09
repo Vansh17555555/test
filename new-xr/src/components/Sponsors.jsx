@@ -4,7 +4,7 @@ const Sponsors = () => {
   return (
     <section>
       <div className="sponsors-container">
-        <h2 className="sponsors-title">SPONSORS</h2>
+        <h2 className="sponsors-title">PARTNERS & SPONSORS</h2>
         <div className="sponsors-logos">
           <div className="sponsor-item">
             <img src="/assets/Confederation-of-Indian-Industry-CII.png" alt="Sponsor 1" className="sponsor-logo" />
