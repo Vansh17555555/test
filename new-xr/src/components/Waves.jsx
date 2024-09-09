@@ -17,7 +17,7 @@ const Waves = () => {
     World Audio Visual & Entertainment Summit (WAVES), scheduled for 5th to 9th February 2025, is a key forum for promoting discussions, collaboration, and innovation in the M&E industry. The event will bring together industry leaders, stakeholders and innovators to discuss prospects, challenges, promote global trade and influence the sector’s future.
     </p>
     
-    <a href="#" className="waves-button" onClick={(e) => { e.preventDefault(); register(); }}>WAVES 2025</a>
+    <a href="https://wavesindia.org/" className="waves-button">WAVES 2025</a>
   </div>
   </div>
   )

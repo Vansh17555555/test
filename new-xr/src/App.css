@@ -911,7 +911,7 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
-    width: 43vw;
+    width: 33vw;
   }
   
   .theme-image {
@@ -937,7 +937,7 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
-    width: 60.56vw;
+    width: 50.56vw;
   }
 
   .theme-image {
@@ -950,6 +950,7 @@ nav ul li button {
 
   .theme-content {
     font-size: 2vw;
+    padding-bottom: 2vw;
   }
 
   .theme-container {
@@ -968,7 +969,7 @@ nav ul li button {
   .theme-card-3,
   .theme-card-4,
   .theme-card-5 {
-    width: 80vw;
+    width: 40vw;
     gap: 2vw;
   }
 
@@ -982,6 +983,8 @@ nav ul li button {
 
   .theme-content {
     font-size: 3vw;
+    padding-bottom: 15vw;
+    
   }
 }
 .timelines-container {
