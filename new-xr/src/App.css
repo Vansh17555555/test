@@ -457,12 +457,13 @@ nav ul li button {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:left;
     flex-direction: column;
   }
 
   .title {
     font-size: 3.5vh;
+    
   }
 
   .description {
@@ -539,7 +540,7 @@ nav ul li button {
 /* Register button styles */
 .waves-button {
   display: inline-block;
-  padding: 2vh 4vw; /* 0.75rem and 1.5rem converted to vh and vw */
+  padding: 2vh 6vw; /* 0.75rem and 1.5rem converted to vh and vw */
   font-size: 1.2vw; /* 1rem converted to vw */
   font-weight: 600;
   color: #ffffff;
@@ -634,7 +635,7 @@ nav ul li button {
   }
 
   .waves-button {
-    padding: 2.5vh 5vw;
+    padding: 2.5vh 8vw;
     font-size: 2vw;
     
   }
@@ -928,6 +929,7 @@ nav ul li button {
     flex-wrap: wrap;
     width: 70vw;
     height:29vh;
+    padding-inline: 3.5vw;
     gap: 2vw;
   }
   .theme-card-1 {
@@ -943,6 +945,7 @@ nav ul li button {
 
   .theme-content {
     font-size: 3vw;
+    text-align: left;
     padding-bottom: 15vw;
     
   }
@@ -1515,8 +1518,11 @@ margin-top: 2vw;
 
   .organizer-item {
     width: 40%; /* Set the width of each organizer item to 40% of the viewport width on small screens */
-    height: auto; /* Set the height to auto to maintain the aspect ratio */
+    height:40%; /* Set the height to auto to maintain the aspect ratio */
     margin: 2vw; /* Add some margin between the items */
+  }
+  .organizer-item img{
+    height: 40%;
   }
 }
 
@@ -1659,5 +1665,8 @@ margin-top: 2vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .heading{
+    font-size: 5vw;
   }
 }
