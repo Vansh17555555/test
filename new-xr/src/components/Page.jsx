@@ -1,7 +1,7 @@
-import React from 'react';
+
 import './Page.css';
 
-const Page = ({ id, imageSrc }) => {
+const Page = () => {
     return (
         <>
           <div className="main-container">

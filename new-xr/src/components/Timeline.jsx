@@ -31,11 +31,11 @@ const Timelines = ({id}) => {
             </div>
             <div className="event">
               <p>Idea Submission Round <br></br>Ends</p>
-              <p className="event-date">5th Oct, 24</p>
+              <p className="event-date">10th Oct, 24</p>
             </div>
             <div className="event">
               <p>Phase 1 Result<br></br> Announcement</p>
-              <p className="event-date">19th Oct, 24</p>
+              <p className="event-date">20th Oct, 24</p>
             </div>
           </div>
         </div>
@@ -46,15 +46,15 @@ const Timelines = ({id}) => {
           <div className="events">
             <div className="event">
               <p>Hackathon Round 1<br></br> Begins</p>
-              <p className="event-date">20th Oct, 24</p>
+              <p className="event-date">25th Oct, 24</p>
             </div>
             <div className="event">
               <p>Hackathon Round 1<br></br> Ends</p>
-              <p className="event-date">4th Dec, 24</p>
+              <p className="event-date">10th Dec, 24</p>
             </div>
             <div className="event">
               <p>Phase 2 Result<br></br> Announcement</p>
-              <p className="event-date">10th Dec, 24</p>
+              <p className="event-date">16th Dec, 24</p>
             </div>
           </div>
         </div>
@@ -65,15 +65,15 @@ const Timelines = ({id}) => {
           <div className="events">
             <div className="event">
               <p>Hackathon Finale <br></br>Begins</p>
-              <p className="event-date">10th Dec, 24</p>
+              <p className="event-date">20th Dec, 24</p>
             </div>
             <div className="event">
               <p>Hackathon Finale <br></br>Ends</p>
-              <p className="event-date">24th Dec, 24</p>
+              <p className="event-date">10th Jan, 25</p>
             </div>
             <div className="event">
               <p>Phase 3 Result <br></br>Announcement</p>
-              <p className="event-date">31st Dec, 24</p>
+              <p className="event-date">15th Jan, 25</p>
             </div>
           </div>
         </div>

@@ -19,11 +19,13 @@ const Footer = () => {
 
   return (
     <section style={currentStyles.footer}>
+      <div style={{ display:'block',width:'36vw', background:'trasnparent'}}>
+      <img src="assets/image_3-removebg-preview.png" alt="Logo" style={{ width: '7vw' ,marginLeft:'5vw', height: 'auto' }} />      </div>
       <div style={currentStyles.container}>
         <div style={currentStyles.column}>
           <p style={currentStyles.contactHeader}>Contact Us</p>
-          <p style={currentStyles.contactInfo}>+49 9898 9898 98,9797 9797 97</p>
-          <p style={currentStyles.contactInfo}>xrcreatorhackathon@gmail.com</p>
+          <p style={currentStyles.contactInfo}>+91 93540 31490</p>
+          <p style={currentStyles.contactInfo}>xrcreatorhackathon@wavelaps.com</p>
         </div>
         <div style={currentStyles.column}>
           <p style={currentStyles.followUs}>Follow Us</p>

@@ -9,6 +9,7 @@ import Timelines from './components/Timeline';
 import Prize from './components/Prize';
 import Organiser from './components/Organiser';
 import Waves from './components/Waves';
+import Sponsors from './components/Sponsors';
 
 
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
         <Prize />
       </section>
       <section id="sponsor">
+        <Sponsors/>
         <Organiser />
       </section>
       <section id="faq">

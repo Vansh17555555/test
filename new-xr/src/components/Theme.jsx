@@ -1,8 +1,8 @@
-import React from 'react'
+//import React from 'react'
 
-const Theme = ({id}) => {
+const Theme = () => {
     return (        
-          <section className="theme-container" id={id}>
+          <section className="theme-container" >
           <h1 className="theme-heading">THEMES</h1>
           <div className='theme-card-container'>
             {/* Healthcare, Fitness, Well-being Theme Card */}

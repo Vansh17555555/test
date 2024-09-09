@@ -299,10 +299,12 @@ nav ul li button {
   .carousel-container {
   padding-right:10vw;
   margin-left: -10vh;
+  width:100vw;
   }
 }
 .carousel img {
   width: 100%;
+  border-radius: 20px;
   object-fit: cover;
 }
 
@@ -983,6 +985,7 @@ margin-bottom: 4vw;
 }
 .phase-0 {
   background: #F4B73F1A;
+
 }
 .phase-1 {
   background: #FF449E1A;
@@ -1037,7 +1040,7 @@ margin-bottom: 4vw;
 
 .event {
   background: linear-gradient(90deg, #FF8B20 5%, #F4B73F 100%);
-  padding: 2vh;
+  padding: 1.5vw;
   border-radius: 2vh;
   width: calc(50% - 6vw); /* Each event takes up 50% of the container, minus gap */
   margin-bottom: 1vh;
@@ -1046,7 +1049,7 @@ margin-bottom: 4vw;
   justify-content:space-between;
   align-items: center;
   font-family: Inter;
-  font-size: 1.042vw;
+  font-size: 1.2vw;
   font-weight: 650;
   line-height: 24.2px;
   text-align: left;
@@ -1057,7 +1060,7 @@ margin-bottom: 4vw;
 }
 
 .event-date {
-  font-size: 1.042vw;
+  font-size: 1.2vw;
   font-weight: 650;
   line-height: 24.2px;
   text-align: right;
@@ -1072,10 +1075,11 @@ margin-bottom: 4vw;
 }
 .final-announcement {
   text-align: center;
-  font-size: 1.125rem;
+  font-size: 1.25vw;
   font-family: Inter;
   font-weight: 600;
   border-radius: 30px;
+  padding: 2.5vw;
   height: 11vh;
   width:65vw;
   display:flex;
@@ -1314,15 +1318,90 @@ margin-top: 2vw;
     padding: 2rem;
   }
 }
+/* Sponsors Title */
+.sponsors-title {
+  font-family: Roboto Condensed;
+  font-size: 3.93vw;
+  font-weight: 700;
+  line-height: 9vw;
+  text-align: center;
+  color: #000000;
+  margin-bottom:5vh;
+}
 
+/* Sponsors Container */
+.sponsors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4vh 2vw;
+  padding-bottom: 3vh;
+  background-color: white;
+  color: black;
+}
+
+/* Sponsors Logos */
+.sponsors-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+}
+
+/* Sponsor Item */
+.sponsor-item {
+  width: 20vw;
+  height: 10vw;
+  background: white;
+ 
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-item img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 480px) {
+  .sponsors-title {
+    font-size: 7vw;
+    line-height: 1vw;
+  }
+
+
+  .sponsor-item {
+    width: 40vw;
+    height: 20vw;
+  }
+
+  .sponsor-item img {
+    width: 70%;
+  }
+}
 /* Prizes container */
 .prizes-container {
   text-align: center;
-  padding: 10vh 2vw; 
-  padding-bottom: 27vh;/* Adjust padding to viewport units */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4vw 2vw; 
+  padding-bottom:6vw;/* Adjust padding to viewport units */
   background: white;
 }
+.prizes-image{
+  width: 35vw;
 
+}
+.prizes-image img{
+  width: 100%;
+}
 /* Prizes heading */
 .prizes-heading {
   font-family: Roboto Condensed;
@@ -1341,7 +1420,7 @@ margin-top: 2vw;
   color: #4a4a4a;
   line-height: 2.5vw; /* Adjust line height to viewport units */
   max-width: 90vw; /* Optional: Limits the width of the paragraph to viewport units */
-  margin: 0 auto;
+  margin-inline:10vw;
   background: white;
 }
 
@@ -1352,6 +1431,9 @@ margin-top: 2vw;
     font-weight: 700;
     line-height: 6vw; /* Adjust line height to viewport units */
     text-align: center;
+  }
+  .prizes-image{
+    width: 50vw;
   }
 }
 
@@ -1367,64 +1449,74 @@ margin-top: 2vw;
   color: black;
 }
 
-/* Organizers title */
+/* Organizers title *//* Organizers title */
 .organizers-title {
   font-family: Roboto Condensed;
-  font-size: 3.93vw; /* Adjust font size to viewport units */
+  font-size: 3.93vw;
   font-weight: 700;
-  line-height: 9vw; /* Adjust line height to viewport units */
+  line-height: 9vw;
   text-align: center;
   color: #000000;
-  margin-bottom: 5vh;
+  margin-bottom: 1vh;
 }
 
-@media (max-width: 480px) {
-  .organizers-title {
-    font-family: Roboto Condensed;
-    font-size: 7vw; /* Adjust font size to viewport units */
-    font-weight: 700;
-    line-height: 6vw; /* Adjust line height to viewport units */
-    text-align: center;
-  }
-  /* Organizers container */
+/* Organizers container */
 .organizers-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   padding: 4vh 2vw;
-  padding-bottom: 15vh; /* Adjust padding to viewport units */
+
   background-color: white;
   color: black;
-}
-
 }
 
 /* Organizers logos */
 .organizers-logos {
   display: flex;
-  background: white;
-  gap: 2vw; /* Space between the logos */
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
 }
 
 /* Organizer item */
 .organizer-item {
-  display: flex;
-  background: white;
-  flex-direction: column;
-  align-items: center;
+  width: 20vw; /* Set the width of each organizer item to 25% of the viewport width */
+  padding: 4vw;
+  
+   /* Set the padding to 4% of the viewport width */
 }
 
-/* Organizer logo */
-.organizer-logo {
-  width: 13vw; /* Adjust width to viewport units */
-  height: 12vw; /* Adjust height to viewport units */
-  margin-bottom: 1vw; /* Adjust margin-bottom to viewport units */
-  transition: box-shadow 0.3s ease-in-out; /* Smooth shadow transition */
+.organizer-item img {
+  width: 100%; /* Set the width of the image to 100% of the organizer item's width */
+  height: auto; /* Maintain the aspect ratio of the image */
 }
 
-.organizer-logo:hover {
-  box-shadow: 0px 1vh 2vh rgba(0, 0, 0, 0.3); /* Add shadow on hover, adjusted to viewport units */
+@media (max-width: 480px) {
+  .organizers-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%; /* This will make the container take up 50% of the available space */
+  }
+
+  .organizers-title {
+    font-size: 7vw;
+    line-height: 6vw;
+  }
+
+  .organizers-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .organizer-item {
+    width: 40%; /* Set the width of each organizer item to 40% of the viewport width on small screens */
+    height: auto; /* Set the height to auto to maintain the aspect ratio */
+    margin: 2vw; /* Add some margin between the items */
+  }
 }
 
 /* FAQs */
@@ -1432,7 +1524,7 @@ margin-top: 2vw;
 
 #faqs{
   margin: auto !important;
-  margin-bottom: 5vh !important;
+  margin-bottom: 4vh !important;
   display: block;
   background: white;
   width: 100vw;
@@ -1442,7 +1534,7 @@ margin-top: 2vw;
   font-weight: 700;
   text-align: center;
   left:-100px;
-  margin-bottom: 2vw;
+  margin-bottom: 1.5vw;
   color: black;
 }
 .faq-heading {

@@ -31,6 +31,7 @@ const Navbar = ({ register }) => {
             <i className="fas fa-times"></i>
           </div>
         )}
+        <li><a href="https://wavelaps.com">Home</a></li>
         <li><a href="#about" onClick={closeMenu}>Overview</a></li>
         <li><a href="#theme" onClick={closeMenu}>Themes</a></li>
         <li><a href="#timelines" onClick={closeMenu}>Timeline</a></li>

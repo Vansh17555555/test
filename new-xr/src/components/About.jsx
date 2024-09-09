@@ -12,7 +12,8 @@ const About = () => {
   const dots = [
     { id: 0, label: 'Slide 1' },
     { id: 1, label: 'Slide 2' },
-    { id: 2, label: 'Slide 3' }
+    { id: 2, label: 'Slide 3' },
+    { id: 3, label: 'Slide 4' }, // Corrected id to match the slide index
   ];
 
   return (
@@ -36,15 +37,19 @@ const About = () => {
           showStatus={false}
           showArrows={false}
           onChange={handleChange} // Update index on slide change
+          selectedItem={currentIndex} // Sync selected slide with current index
         >
           <div>
-            <img src="/assets/image (1).png" alt="Image 1" />
+            <img src="/assets/photos 2(1).jpg" alt="Image 2" />
           </div>
           <div>
-            <img src="/assets/image (1).png" alt="Image 2" />
+            <img src="/assets/photos 3(1).jpg" alt="Image 2" />
           </div>
           <div>
-            <img src="/assets/image (1).png" alt="Image 3" />
+            <img src="/assets/photos 4(1).jpg" alt="Image 3" />
+          </div>
+          <div>
+            <img src="/assets/Photos 6(1).jpg" alt="Image 4" />
           </div>
         </Carousel>
 

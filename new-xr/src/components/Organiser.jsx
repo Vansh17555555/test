@@ -10,13 +10,13 @@ return (
       <h2 className="organizers-title">ORGANIZERS</h2>
       <div className="organizers-logos">
         <div className="organizer-item">
-          <img src="/assets/Group 6315.png" alt="XDG" className="organizer-logo" />
+          <img src="/assets/Group 6181.jpg" alt="XDG" className="organizer-logo" />
         </div>
         <div className="organizer-item">
-          <img src="/assets/Group 6314.png" alt="Wavelaps" className="organizer-logo" />
+          <img src="/assets/image 3(1).jpg" alt="Wavelaps" className="organizer-logo" />
         </div>
         <div className="organizer-item">
-          <img src="/assets/Group 6315.png" alt="BharatXR" className="organizer-logo" />
+          <img src="/assets/Group 6340(1).jpg" alt="BharatXR" className="organizer-logo" />
         </div>
       </div>
     </div>
