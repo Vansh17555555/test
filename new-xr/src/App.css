@@ -925,11 +925,11 @@ nav ul li button {
     flex-direction: row;
     flex-wrap: wrap;
     width: 70vw;
-    height:27vh;
+    height:29vh;
     gap: 2vw;
   }
   .theme-card-1 {
-    height:24vh;
+    height:26vh;
   }
   .theme-image {
     width: 15vw;
@@ -1030,7 +1030,8 @@ margin-bottom: 4vw;
   color: white;
   justify-content: center;
   width: 100%;
-  flex-wrap: wrap; /* Allow wrapping */
+   /* Allow wrapping */
+  flex-wrap:wrap;
   gap: 4.5vh; /* Gap between items */
 }
 
