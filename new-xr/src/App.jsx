@@ -39,7 +39,7 @@ const App = () => {
       {loading && <Loader />}
       <Navbar register={register} />
       <section id="launchpage" className="pages">
-        <img src="/assets/Banner Layers.png" alt=""/>
+        <img src="/assets/Web Banner 1920X875.png" alt=""/>
         <Marquee/>
       </section>
     
