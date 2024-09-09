@@ -1031,6 +1031,7 @@ margin-bottom: 4vw;
   justify-content: center;
   width: 100%;
    /* Allow wrapping */
+  flex-wrap:wrap;
   gap: 4.5vh; /* Gap between items */
 }
 
