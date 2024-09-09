@@ -15,7 +15,7 @@
   }
   
   .loader-container.hidden {
-    opacity: 0; /* Hide the loader by fading out */
+    display: none; /* Hide the loader by fading out */
   }
   
   .loader {
