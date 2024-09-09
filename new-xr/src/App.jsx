@@ -41,7 +41,7 @@ const App = () => {
       <section id="prize">
         <Prize />
       </section>
-      <section id="organiser">
+      <section id="sponsor">
         <Organiser />
       </section>
       <section id="faq">

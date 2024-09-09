@@ -59,7 +59,7 @@ const styles = {
   },
   container: {
     maxWidth: '1200px',
-    margin: '0 auto',
+    margin: '0 100px',
     display: 'flex',
     flexDirection:'row-reverse',
     justifyContent: 'space-between',
