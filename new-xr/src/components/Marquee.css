@@ -1,0 +1,51 @@
+/* src/components/Marquee.css */
+.marquee-wrapper {
+    position: relative;
+    overflow: hidden; /* Hide overflow to ensure smooth scrolling */
+    width: 100%; /* Full width of the container */
+     /* Adjust height as needed */
+     background: #EE326B;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-top:-5px ;
+    border: 6px solid #051448 /* Center the content vertically */
+  }
+  
+  .marquee-content {
+    white-space: nowrap; /* Ensure text stays on one line */
+    position: absolute;
+    top:10;
+    display: flex;
+    height: 100%;
+    background: #EE326B;
+
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    padding-left: 100%; /* Start offscreen to the right */
+    animation: marquee 15s linear infinite;
+    z-index: 0; /* Ensure it's behind the updates */
+  }
+  
+  .updates {
+    position: relative;
+    background: #f1f1f1; 
+    color: white;/* Background color */
+    padding: 10px 20px; /* Padding around the updates */
+    z-index: 1; /* Make sure updates are on top */
+    width: auto;
+    background: linear-gradient(90deg, #000000 75.62%, rgba(0, 0, 0, 0) 100%);
+
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%); /* Start offscreen to the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move offscreen to the left */
+    }
+  }
+  
