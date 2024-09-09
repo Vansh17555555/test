@@ -1479,6 +1479,8 @@ margin-top: 2vw;
   align-items: center;
   gap: 2vw;
 }
+
+/* Organizer item */
 .organizer-item {
   width: 20vw; /* Set the width of each organizer item to 25% of the viewport width */
   padding: 4vw;
