@@ -1036,9 +1036,9 @@ margin-bottom: 4vw;
 
 .event {
   background: linear-gradient(90deg, #FF8B20 5%, #F4B73F 100%);
-  padding: 3vh;
+  padding: 2vh;
   border-radius: 2vh;
-  width: calc(50% - 3vw); /* Each event takes up 50% of the container, minus gap */
+  width: calc(50% - 6vw); /* Each event takes up 50% of the container, minus gap */
   margin-bottom: 1vh;
   transition: background-color 0.3s;
   display: flex;
