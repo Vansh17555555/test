@@ -34,7 +34,7 @@
     background: #f1f1f1; 
     color: white;/* Background color */
     padding: 10px 20px; /* Padding around the updates */
-    z-index: 1; /* Make sure updates are on top */
+    z-index: 0; /* Make sure updates are on top */
     width: auto;
     background: linear-gradient(90deg, #000000 75.62%, rgba(0, 0, 0, 0) 100%);
 
@@ -46,6 +46,21 @@
     }
     100% {
       transform: translateX(-100%); /* Move offscreen to the left */
+    }
+  }
+  @media (max-width: 768px) {
+    .marquee-wrapper {
+      height: 50px; /* Adjust height for mobile */
+      margin-top: -3px; /* Remove margin-top for mobile */
+      border-width: 3px; /* Reduce border width for mobile */
+    }
+  
+    .marquee-content {
+      top: 0; /* Adjust top position for mobile */
+    }
+  
+    .updates {
+      padding: 5px 10px; /* Adjust padding for mobile */
     }
   }
   
