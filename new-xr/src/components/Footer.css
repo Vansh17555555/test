@@ -1,0 +1,73 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1a202c;
+  color: white;
+  padding: 2rem;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.footerPrefix {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.followUs {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contactHeader {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contactInfo {
+  cursor: pointer;
+  transition: color 0.3s;
+  margin-bottom: 0.25rem;
+}
+
+.footerBottom {
+  text-align: center;
+}
+
+.footerText {
+  font-size: 0.775rem;
+  text-align: left;
+  margin-top: 1vh;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    margin: 0; /* Zero margin on mobile */
+  }
+
+  .footerText {
+    padding-left: 0;
+  }
+}
